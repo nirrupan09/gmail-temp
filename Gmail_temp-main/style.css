@@ -1,0 +1,41 @@
+.container {
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
+}
+
+.btn-list {
+  background-color: rgb(185, 52, 52);
+  text-align: center;
+  padding: 10px;
+}
+
+.gmail-logo {
+  object-fit: contain;
+  height: 60px;
+}
+
+.body-info {
+  overflow-y: scroll;
+  height: 700px;
+  background-color: rgb(247, 243, 243);
+  border-bottom: 2px solid gray;
+}
+
+.msg_row:hover {
+/*   transform: scale(0.9); */
+  background-color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-bottom: 2px solid black; 
+}
+
+.msg_row {
+  padding: 5px;
+}
+
+.msg_compose .msg_header {
+  background-color: rgb(44, 42, 42);
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+}
